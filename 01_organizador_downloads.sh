@@ -24,7 +24,7 @@ done
 
 # Laço de repetição para os arquivos dentro da pasta destino
 for arquivo in "$destino"/*; do
-    if [ ! -d "$arquivo" ]; then	# Verifica de não é um diretório
+    if [ ! -d "$arquivo" ]; then	# Verifica se não é um diretório
         case ${arquivo##*.} in		# Pega a extensão do arquivo
             docx | doc | xls | xlsx | ppt | pptx | pdf | txt | odt | ods | odf)
                 mv "$arquivo" "$diretorio/Documentos";;
