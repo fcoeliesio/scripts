@@ -34,7 +34,7 @@ for arquivo in "$destino"/*; do
 		mv "$arquivo" "$diretorio/Músicas";;
             mkv | mp4 | avi | wmv | flv | mpeg-2 | mpeg | rmvb)
 		mv "$arquivo" "$diretorio/Vídeos";;
-        desktop | sh | lnk) : ;;	# Ignorar arquivos sh e atalhos
+            desktop | sh | lnk) : ;;	# Ignorar arquivos sh e atalhos
             *)
 		mv "$arquivo" "$diretorio/Outros" ;;
         esac
