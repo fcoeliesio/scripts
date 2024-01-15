@@ -16,7 +16,7 @@ destino="$HOME/Backup"
 [ ! -d "$destino" ] && mkdir "$destino"
 
 # Configurando o nome, junto ao caminho, do arquivo de backup:
-# /home/user/ano-mês-dia-hora-minutos_backip.zip
+# /home/user/ano-mês-dia-hora-minutos_backup.zip
 backup="$destino/$(date +%Y-%m-%d-%H.%M_backup.zip)"
 
 # Compactando os arquivos da pasta download já os encaminhando para
