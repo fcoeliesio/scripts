@@ -2,7 +2,6 @@
 
 ####################################################
 #Nome		: Organizador de Arquivos em Downloads
-#Descrição	: Organizar os arquivos na pasta Downloads da home do usúario
 #Autor		: Francisco Eliésio (fcoeliesio@gmail.com)
 #Data		: 2024-01-14
 ###################################################
