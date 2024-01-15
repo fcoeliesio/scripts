@@ -27,6 +27,6 @@ zip -r "$backup" "$origem"
 cd "$destino"
 while [ $(ls "$destino" | wc -l) -ne 1 ]; do
 	for i in *; do
-		[ $backup -nt $i ] && rm $i
+		[ "$backup" -nt "$i" ] && rm "$i"
 	done
 done
