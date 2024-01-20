@@ -13,12 +13,10 @@ cd
 destino=Downloads
 diretorio="$(pwd)/$destino"
 
-# Criação da pasta caso não exista
-[ ! -d "$destino" ] && mkdir "$destino"
-
-# Criação das subpastas caso não existam dentro da pasta destino
+# Criação da pasta caso não exista e de suas subpastas
+mkdir -p "$destino"
 for i in Documentos Imagens Músicas Vídeos Outros; do
-    [ ! -d "$destino/$i" ] && mkdir "$destino/$i"
+    mkdir -p "$destino/$i"
 done
 
 # Laço de repetição para os arquivos dentro da pasta destino
