@@ -13,7 +13,7 @@ origem="$HOME/Downloads"
 destino="$HOME/Backup"
 
 # Criação da pasta de destino caso ela não exista
-[ ! -d "$destino" ] && mkdir "$destino"
+mkdir -p "$destino"
 
 # Configurando o nome, junto ao caminho, do arquivo de backup:
 # /home/user/ano-mês-dia-hora-minutos_backup.zip
