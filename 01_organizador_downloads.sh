@@ -1,11 +1,5 @@
 #!/bin/bash
 
-####################################################
-#Nome		: Organizador de Arquivos em Downloads
-#Autor		: Francisco Eliésio (fcoeliesio@gmail.com)
-#Data		: 2024-01-14
-###################################################
-
 # Direcionamento à pasta home do usuário caso o script não esteja nela
 cd
 
