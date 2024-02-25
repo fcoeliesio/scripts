@@ -1,11 +1,5 @@
 #!/bin/bash
 
-####################################################
-#Nome		: Backup de  Downloads
-#Autor		: Francisco Eliésio (fcoeliesio@gmail.com)
-#Data		: 2024-01-14
-####################################################
-
 # Diretório de origem do backup
 origem="$HOME/Downloads"
 
